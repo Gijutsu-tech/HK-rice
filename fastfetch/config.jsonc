@@ -1,0 +1,85 @@
+{
+    "logo": {
+        "type": "small",
+        "width": 18,
+        "padding": {
+            "top": 0,
+            "left": 0
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": ""
+        },
+        {
+            "type": "custom",
+            "format": "{#1}grep -r \"No cost too great\" /pale_king/dreams{#0}"
+        },
+        {
+            "type": "custom",
+            "format": ""
+        },
+        {
+            "key": "╭───────────╮",
+            "type": "custom"
+        },
+        {
+            "key": "│ {#31} user    {#keys}│",
+            "type": "title",
+            "format": "{user-name}"
+        },
+        {
+            "key": "│ {#32}󰇅 host    {#keys}│",
+            "type": "title",
+            "format": "{host-name}"
+        },
+        {
+            "key": "│ {#33}󰅐 uptime  {#keys}│",
+            "type": "uptime"
+        },
+        {
+            "key": "├───────────┤",
+            "type": "custom"
+        },
+        {
+            "key": "│ {#34}󰣇 distro  {#keys}│",
+            "type": "os"
+        },
+        {
+            "key": "│ {#35} kernel  {#keys}│",
+            "type": "kernel"
+        },
+        {
+            "key": "│ {#36}󱂬 desktop {#keys}│",
+            "type": "de"
+        },
+        {
+            "key": "│ {#31} term    {#keys}│",
+            "type": "terminal"
+        },
+        {
+            "key": "│ {#32} shell   {#keys}│",
+            "type": "shell"
+        },
+        {
+            "key": "├───────────┤",
+            "type": "custom"
+        },
+        {
+            "key": "│ {#33}󰍛 cpu     {#0}│ AMD Ryzen 5 4600G @ 4.31 GHz", // I've set this manually here to avoid overflow due to longer names - not the best way but works
+            "type": "custom"
+        },
+        {
+            "key": "│ {#35} memory  {#keys}│",
+            "type": "memory"
+        },
+        {
+            "key": "╰───────────╯",
+            "type": "custom"
+        }
+    ]
+}
